@@ -1,0 +1,48 @@
+.stack{
+    background-color: var(--techStackBgColor);
+    padding: 4rem 0;
+}
+.stack > h1{
+    text-align: center;
+    font-family: clashGrotesk;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.stack-inner{
+    width:90vw;
+    max-width: var(--laptop);
+    margin: auto;
+    
+}
+.stack-inner p{
+    font-family: clashGrotesk;
+    font-size: 20px;
+    font-weight: 450;
+    margin-bottom: 10px;
+    margin-top: 12px;
+    
+}
+
+.stack-inner > h1{
+    font-family: clashGrotesk;
+    font-size: 2rem;
+    margin: 0 0 2rem 0;
+}
+
+.stack-container{
+    display: flex;
+    align-items: start;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 80vw;
+    margin: auto;
+    column-gap: 4rem;
+    row-gap: 4rem;
+}
+
+@media screen and (min-width: 600px) {
+    .stack-container{
+        width: 100%;
+    }
+}
