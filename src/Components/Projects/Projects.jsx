@@ -62,6 +62,9 @@ function Projects() {
             {mappedProjects}
             </div>
 
+              <button style={{marginBottom: "20px", cursor: "default"}} className="view-more">
+              App projects are on the way
+            </button>
             <a href="https://github.com/tejhagargi9?tab=repositories" target="_blank" >
               <button className="view-more">
               View more on Github 

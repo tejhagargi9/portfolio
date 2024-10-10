@@ -8,7 +8,7 @@ function ContactMe() {
   return (
     <section className="contact">
         <div className="contact-inner">
-            <h1 id="contact">CONTACT ME</h1>
+            <h1 id="contact">CONNECT WITH ME</h1>
 
             <div className="contact-container">
                 <div className="email">
