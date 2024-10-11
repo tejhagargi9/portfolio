@@ -3,7 +3,67 @@
     margin: 5rem 0;
     padding: 5rem 0rem;
 }
-
+#timelineHeader {
+    font-family: clashGrotesk;
+    font-size: 20px;
+    text-align: left;
+    margin-top: 50px;
+    /* margin-left: 0;   */
+}
+.timeline-section {
+    margin-top: 50px;
+    margin: auto;
+  }
+  .edu {
+    border: 2px solid red;
+    /* display: flex; */
+  }
+  
+  .timeline-section h2 {
+    font-size: 28px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  
+  .custom-marker {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    font-size: 18px; /* Bigger icon size */
+    color: white;
+  }
+  
+  .timeline-section h4 {
+    font-size: 22px; /* Bigger font for timeline headings */
+    margin: 0;
+  }
+  
+  .timeline-section p {
+    font-size: 18px; /* Bigger font for timeline content */
+    margin: 5px 0;
+  }
+  
+  .p-timeline-event {
+    margin-bottom: 40px !important; /* Adds gap between timeline events */
+  }
+  
+  .p-timeline-event-opposite {
+    text-align: left;
+    padding-left: 10px; /* Ensures time text stays to the left */
+  }
+  
+  .p-timeline-event-content {
+    margin-left: 70px; /* Adds space between the marker and content */
+  }
+  
+  .card {
+    padding: 20px;
+  }
+  
 .about-me-inner {
     width:90vw;
     max-width: var(--laptop);

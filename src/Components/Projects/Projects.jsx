@@ -15,7 +15,8 @@ import gym1 from "../../assets/images/gym/4.jpg"
 import gym2 from "../../assets/images/gym/5.jpg"
 import gym3 from "../../assets/images/gym/6.jpg"
 
-
+import { Button } from 'primereact/button';
+import "primereact/resources/themes/lara-light-cyan/theme.css";
 import arrow from "../../assets/icons/view-more-arrow.svg"
 
 
