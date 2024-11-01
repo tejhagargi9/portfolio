@@ -96,8 +96,7 @@ function Hero() {
        </p>
 
        <div className="hero-heading">
-        <h1>WEB DEVELOPER &</h1>
-        <h1>APP DEVELOPER</h1>
+        <h1>WEB DEVELOPER</h1>
        </div>
 
        <p className="hero-intro">

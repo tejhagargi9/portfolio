@@ -10,6 +10,10 @@ import codebro1 from "../../assets/images/codebro/2.jpg"
 import codebro2 from "../../assets/images/codebro/1.jpg"
 import codebro3 from "../../assets/images/codebro/3.jpg"
 
+import animal1 from "../../assets/images/animaltracker/1.png"
+import animal2 from "../../assets/images/animaltracker/2.png"
+import animal3 from "../../assets/images/animaltracker/3.png"
+
 //mathivities
 import gym1 from "../../assets/images/gym/4.jpg"
 import gym2 from "../../assets/images/gym/5.jpg"
@@ -32,7 +36,7 @@ function Projects() {
     name : "Animal/Herd Tracking System : (Group Management & Alerts)",
     description : "Our animal tracking solution ensures your animals' safety with real-time position monitoring and alerts when they leave designated safe zones. With a user-friendly interface and precise tracking, you can effortlessly keep them secure.",
     stack : ["ReactJS", "ExpressJS", "NodeJS", "MongoDB"],
-    images: [codebro1, codebro2, codebro3],
+    images: [animal1, animal2, animal3],
     links : ["https://youtu.be/z1eEwrPIamI?si=Lo1YEFR1iKI_3TQ7","https://github.com/Ganesh-Mk/AnimalTracker"],
 
   },
